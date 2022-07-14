@@ -1,3 +1,3 @@
 #   Kokoa Clone
 
-Jiwon's Clone coding!
+Jiwon's Kokoa Clone coding!
