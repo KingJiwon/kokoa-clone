@@ -17,20 +17,20 @@
                 <span>18:43</span>
             </div>
             <div class="status-bar__column">
-                <span>110%</span>
+                <span>11%</span>
                 <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
                 <i class="fa-solid fa-bolt"></i>
             </div>
         </div>
-        <header class = "welcom-header">
-            <h1 class = "welcom-header__title">Welcome to KokoaTalk</h1>
-            <p class = "welcom-header__text">If you have a Kokoa Account, log in with your email or phone number.</p>
+        <header class = "welcome-header">
+            <h1 class = "welcome-header__title">Welcome to KokoaTalk</h1>
+            <p class = "welcome-header__text">If you have a Kokoa Account, log in with your email or phone number.</p>
         </header>
-        <form id="login-form">
-            <input type="text" placeholder="Email or phone number" />
-            <input type="password" placeholder="Password" />
-            <input type="submit" value="Log In" />
-            <a href="#">Find Kokoa Account or Password</a>
+        <form action="friends.html" method="get" class="login-form">
+            <input name="username" required class="login-form__input" type="text" placeholder="Email or phone number" />
+            <input name="password" required class="login-form__input" type="password" placeholder="Password" />
+            <input class="login-form__btn" type="submit" value="Log In" />
+            <a class="login0from__a" href="#">Find Kokoa Account or Password</a>
         </form>
 
         
