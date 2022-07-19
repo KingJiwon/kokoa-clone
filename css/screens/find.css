@@ -1,19 +1,103 @@
-.find-icons{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+.recommended-friends{
+    margin: 5px 0px;;
+    padding: 25px 0px;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
 }
 
-.find-icons__icon{
+.recommended-friends__title{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.recommended-friends span{
+    display: block;
+    margin: 90px 0;
+    text-align: center;
+    font-size: 18px;
+    color: var(--gray);
+}
+
+.open-chat__header{
+    font-size: 14px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 15px 0px;
+}
+
+.open-chat__header span{
+    color: var(--gray)
+}
+
+.open-post{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.find-icons__icon i {
-    font-size: 35px;
+.open-post__title{
+    font-weight: 600;
+    margin-bottom: 7px;
 }
 
-.find-icons__icon span{
-    margin-top: 18px;
+.open-post__hashtags{
+    text-transform: uppercase;
+    color: var(--gray);
+}
+
+.open-post__members{
+    display: flex;
+    align-items: flex-end;
+}
+
+.open-post__members img{
+    margin-top: 7px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.open-post__member-count{
+    color: var(--gray);
+    font-size: 14px;
+}
+
+.open-post__members .divider{
+    width: 1px;
+    height: 14px;
+    margin: 0px 5px;
+    background-color: var(--gray);
+}
+
+.open-post__member-status{
+    color: #ffb0e0;
+}
+
+.open-post__photo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.open-post__photo{
+    position: relative;
+}
+
+.open-post_heart-count{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+    font-size: 14px;
+}
+
+.open-post_heart-count span{
+    margin-left: 3px;
 }
