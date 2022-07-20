@@ -6,6 +6,9 @@
     color: var(--gray);
 }
 
+.user-component__column i {
+    color: black;
+}
 
 .user-component__subtitle-more span{
     display: flex;
@@ -21,8 +24,14 @@
     margin-left: 5px;
 }
 
-.more-screen .icon-row {
+.icon-row__more {
     margin-top: 35px;
+    flex-wrap: wrap;
+}
+
+
+.icon-row__more .icon-row__icon{
+    width: 25%;
 }
 
 .more-suggestions{
@@ -61,3 +70,4 @@
     font-size: 32px;
     color: white;
 }
+
