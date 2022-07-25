@@ -1,6 +1,13 @@
-# Kokoa Clone
+# Jiwon's Kokoa Clone!
 
-Jiwon's Kokoa Clone coding!
+---
 
-github pages
-https://kingjiwon.github.io/kokoa-clone/
+## [Notice]
+
+---
+
+> \* Only HTML,CSS used in this project
+
+> \* github-pages → https://kingjiwon.github.io/kokoa-clone/
+
+> \* last-update : 2022-07-25
