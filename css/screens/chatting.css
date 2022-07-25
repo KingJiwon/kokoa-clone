@@ -89,6 +89,7 @@
 .message__sub-info{
     display: flex;
     flex-direction: column;
+    margin-bottom: 2px;
 }
 
 .message__time{
