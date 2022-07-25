@@ -4,8 +4,8 @@
 
 ## [Notice]
 
-> \* Only HTML,CSS used in this project
+> - Only HTML,CSS used in this project
 
-> \* Github-pages → https://kingjiwon.github.io/kokoa-clone
+> - Github-pages → https://kingjiwon.github.io/kokoa-clone
 
-> \* Last-update : 2022-07-25
+> - Last-update : 2022-07-25
