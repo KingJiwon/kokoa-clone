@@ -6,6 +6,7 @@
     top: 0;
     width: 100%;
     box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 .status-bar__column:first-child span{
     margin-right: 5px;

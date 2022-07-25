@@ -86,9 +86,20 @@
     align-items: flex-end;
 }
 
+.message__sub-info{
+    display: flex;
+    flex-direction: column;
+}
+
 .message__time{
     font-size: 12px;
     opacity: 0.8;
+}
+
+.message__read-info{
+    margin-bottom: 3px;
+    font-size: 13px;
+    color: var(--yellow);
 }
 
 .message-row__own{
